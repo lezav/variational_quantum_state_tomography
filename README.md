@@ -10,3 +10,6 @@ Finally, in the following figure we observe the evolution of the algorithm as a 
 <p align="center">
   <img width="380" height="380" src="https://github.com/lezav/variational_quantum_state_tomography/blob/main/Bloch%20Sphere/b1.png">
 </p>
+
+
+$$x=\sqrt{2}$$
