@@ -13,6 +13,7 @@ Finally, in the following figure we observe the evolution of the algorithm as a 
 
 
 Further reading 
+
 https://en.wikipedia.org/wiki/Quantum_tomography. The article in wikipedia for quantum tomography. 
 
 http://research.physics.illinois.edu/QI/Photonics/tomography-files/tomo_chapter_2004.pdf. Here are some theoretical and experimental foundations for standard quantum tomography on photonics systems.
