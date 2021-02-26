@@ -10,5 +10,5 @@ One of the highlights of variational tomography is its applications for high-dim
 ![Bloch](https://github.com/lezav/variational_quantum_state_tomography/blob/main/Bloch%20Sphere/b1.png)
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/lezav/variational_quantum_state_tomography/blob/main/Bloch%20Sphere/b1.png">
+  <img width="400" height="400" src="https://github.com/lezav/variational_quantum_state_tomography/blob/main/Bloch%20Sphere/b1.png">
 </p>
