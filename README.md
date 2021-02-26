@@ -6,9 +6,6 @@ This is a tutorial of the method for the method using as a benchmark a GHZ state
 
 One of the highlights of variational tomography is its applications for high-dimentional Hilbert spaces. If the have a parametrization of the state, for example, as a [MPS](https://en.wikipedia.org/wiki/Matrix_product_state), we can apply the method successfully, as we show [here](./Variational_Quantum_Tomography_26qb.ipynb) and [here](./Variational_Quantum_Tomography_30qb.ipynb)
 
-
-![Bloch](https://github.com/lezav/variational_quantum_state_tomography/blob/main/Bloch%20Sphere/b1.png)
-
 <p align="center">
-  <img width="400" height="400" src="https://github.com/lezav/variational_quantum_state_tomography/blob/main/Bloch%20Sphere/b1.png">
+  <img width="380" height="380" src="https://github.com/lezav/variational_quantum_state_tomography/blob/main/Bloch%20Sphere/b1.png">
 </p>
