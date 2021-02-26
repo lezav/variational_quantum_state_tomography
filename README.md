@@ -4,7 +4,7 @@ Variational methods have a wide range of application in optimization and machine
 
 This is a tutorial of the method using as a benchmark a GHZ state: [Variational Quantum State Tomography](./Presentation.ipynb)
 
-One of the highlights of variational tomography is its applications for high-dimentional Hilbert spaces. If the have a parametrization of the state, for example, as a [MPS](https://en.wikipedia.org/wiki/Matrix_product_state), we can apply the method successfully, as we show [here](./Variational_Quantum_Tomography_26qb.ipynb) for 26 qubits. For this simulation, we employ the FLOQ online simulator.
+One of the highlights of variational tomography is its applications for high-dimentional Hilbert spaces. If the have an efficient parametrization of the state, for example, as a [MPS](https://en.wikipedia.org/wiki/Matrix_product_state), we can apply the method successfully, as we show [here](./Variational_Quantum_Tomography_26qb.ipynb) for 26 qubits. For this simulation, we employ the FLOQ online simulator.
  
 Finally, in the following figure we observe the evolution of the algorithm as a function of the number of iterations: as *k* increases, our initial guess state | 0 > state approaches the state of the system | 1 >. 
 <p align="center">
