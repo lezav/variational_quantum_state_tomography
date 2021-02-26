@@ -6,7 +6,7 @@ This is a tutorial of the method using as a benchmark a GHZ state: [Variational 
 
 One of the highlights of variational tomography is its applications for high-dimentional Hilbert spaces. If the have a parametrization of the state, for example, as a [MPS](https://en.wikipedia.org/wiki/Matrix_product_state), we can apply the method successfully, as we show [here](./Variational_Quantum_Tomography_26qb.ipynb) for 26 qubits and [here](./Variational_Quantum_Tomography_30qb.ipynb) for 30 qubits. 
  
-Finally, in the following figure we observe the evolution of the algorithm as a function of the number of iterations: as *k* increases, our initial guess state $| 0 \rangle$ state approaches the state of the system $| 1 \rangle $. 
+Finally, in the following figure we observe the evolution of the algorithm as a function of the number of iterations: as *k* increases, our initial guess state <pre xml:lang="latex">| 0 \rangle</pre> $ state approaches the state of the system $| 1 \rangle $. 
 <p align="center">
   <img width="380" height="380" src="https://github.com/lezav/variational_quantum_state_tomography/blob/main/Bloch%20Sphere/b1.png">
 </p>
