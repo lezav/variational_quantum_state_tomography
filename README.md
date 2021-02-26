@@ -10,3 +10,15 @@ Finally, in the following figure we observe the evolution of the algorithm as a 
 <p align="center">
   <img width="380" height="380" src="https://github.com/lezav/variational_quantum_state_tomography/blob/main/Qubit_example/b1.png">
 </p>
+
+
+Further reading 
+https://en.wikipedia.org/wiki/Quantum_tomography. The article in wikipedia for quantum tomography. 
+
+http://research.physics.illinois.edu/QI/Photonics/tomography-files/tomo_chapter_2004.pdf. Here are some theoretical and experimental foundations for standard quantum tomography on photonics systems.
+
+https://arxiv.org/abs/1608.02263. This is a experimental realization of quantum tomography for 7 qubits using compressed sensing, a type of quantum tomography. It shows the difficulties of estimating quantum states for an increasing number of qubits. 
+
+https://arxiv.org/abs/1406.4101. Quantum tomography using SPSA.
+
+https://www.nature.com/articles/s41598-019-52289-0. An improvement on the previous paper with a parametrization in the complex numbers. 
