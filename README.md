@@ -5,6 +5,6 @@ Variational methods have a wide range of application in optimization and machine
 [Variational Quantum State Tomography](./Variational_Quantum_Tomography.ipynb)
 
 
-![GitHub Logo](./Bloch Sphere/b1.png)
-Format: ![Alt Text](url)
+
+![Bloch](https://github.com/lezav/variational_quantum_state_tomography/blob/main/Bloch%20Sphere/b1.png)
 
