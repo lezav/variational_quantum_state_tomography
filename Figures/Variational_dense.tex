@@ -1,0 +1,23 @@
+\documentclass{beamer}
+\beamertemplatenavigationsymbolsempty
+\usepackage[size=custom,height=13,width=35,scale=1]{beamerposter}
+\usepackage[braket, qm]{qcircuit}
+\usepackage{amsmath}
+\usepackage{mathtools,mathdots}
+
+\begin{document}
+	
+	\begin{equation*}
+	\Qcircuit @C=1.0em @R=1em {
+		   &    &        &        &        &    &      & &          &              &   &           &        &  \qquad\mbox{n times} &       &   &      &&             &         & \\      
+	\ket{0}&	&\gate{H}&\ctrl{1}&\qw     & \qw&\cdots& & \qw      &\qw\barrier{5}&\qw&\gate{RY}  &\ctrl{1}&\ctrl{2}&\qw     &\qw&\cdots&&\qw          &\gate{RY}&\meter\\      
+	\ket{0}&	& \qw    &\targ   &\ctrl{1}& \qw&\cdots& & \qw      &\qw           &\qw& \gate{RY} &\targ   &\qw     &\ctrl{1}&\qw&\cdots&&\qw          &\gate{RY}&\meter\\      
+	\ket{0}&	& \qw    & \qw    &\targ   & \qw&\cdots& & \ctrl{1} &\qw           &\qw& \gate{RY} &\qw     &\targ   &\targ   &\qw&\cdots&&\ctrl{1}     &\gate{RY}&\meter\\  
+		   &	& \vdots &        &        &    &      & & \vdots   &              &   &\vdots     &        &        &        &   &      &&\vdots       &         &  \\
+		   &	&        &        &        &    &      & &          &              &   &           &        &        &        &   &      &&             &         &\\
+	\ket{0}&	& \qw    & \qw    & \qw    & \qw&\cdots& &\targ\qwx[-1] &\qw       &\qw& \gate{RY} &\qw     &\qw     &        &\qw&\cdots&&\targ\qwx[-1]&\gate{RY}&\meter
+	\gategroup{2}{12}{7}{19}{.7em}{--}
+	}
+	\end{equation*}
+	
+\end{document}
