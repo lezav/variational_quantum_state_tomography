@@ -1,0 +1,21 @@
+\documentclass{beamer}
+\beamertemplatenavigationsymbolsempty
+\usepackage[size=custom,height=10,width=14,scale=1]{beamerposter}
+\usepackage[braket, qm]{qcircuit}
+\usepackage{amsmath}
+\usepackage{mathtools,mathdots}
+
+\begin{document}
+	
+	\begin{equation*}
+	\Qcircuit @C=1.0em @R=1em {
+	\ket{0}&	&\gate{H}&\ctrl{1}&\qw     & \qw&\cdots& & \qw      &\qw\\
+	\ket{0}&	& \qw    &\targ   &\ctrl{1}& \qw&\cdots& & \qw      &\qw\\
+	\ket{0}&	& \qw    & \qw    &\targ   & \qw&\cdots& & \ctrl{1} &\qw\\
+		   &	& \vdots &        &        &    &      & & \vdots   &\\
+		   &	&        &        &        &    &      & &          &\\
+	\ket{0}&	& \qw    & \qw    & \qw    & \qw&\cdots& &\targ\qwx[-1] &\qw 
+	}
+	\end{equation*}
+	
+\end{document}
